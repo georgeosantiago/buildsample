@@ -1,0 +1,12 @@
+version: "3.9"  
+
+services:
+    srvprueba: 
+        build: .
+        #image: buildsample
+        hostname: srvprueba
+        domainname: srvprueba
+        container_name: srvprueba
+        network_mode: bridge
+
+
